@@ -1,0 +1,77 @@
+header{
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+    height: 180px;
+    border-radius: 18px; /*cantinhos bonitos*/
+
+}
+footer{
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+    height: 180px;
+    border-radius: 18px; /*cantinhos bonitos*/
+    display: flex; /* faz o flex: 1 funcionar*/
+    align-items: center; /*parte centrlizar*/
+    
+}
+
+figcaption{
+    text-align: center;
+}
+
+footer img {
+    margin-right: 8px; /*o espaço entre o texto e a imagem do footer*/
+}
+#txtfooter {
+    color: white;
+    flex: 1; /* preencher espaço */
+    text-align: center; 
+    
+}
+p{
+    padding: 8%;
+    font-size: 115%;
+}
+.logo{
+    width: 160px;
+    height: 160px;
+    position:relative;
+    float:left;
+    display: block;
+}
+
+nav li {
+    display: inline;
+    margin: 75px;
+    font-size: x-large;
+    margin: 80px;
+    
+}
+
+body{
+    background-color: antiquewhite;
+}
+.broxa{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+header a:hover { /* passar o mouse nos links do header, fonte maior e cor*/
+    font-size: xx-large;
+    color:rgb(211, 211, 211)
+}
+
+a:link{ /* tira os coisos dos links*/
+    text-decoration: none;
+}
+
+ul { /* nav*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;  /* joga o nav pra esquerda  */
+    align-items: center; /* verticalmente, na real não entendi, mas funciona por enquanto*/
+  }
